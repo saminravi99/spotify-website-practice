@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+
+/* Fonts of spotify starts */
+
+@font-face {
+    font-family: rota-regular;
+    src: url(../fonts/Rota-Regular.otf);
+}
+
+
+@font-face {
+    font-family: rota-medium;
+    src: url(../fonts/Rota-Medium.otf);
+}
+
+
+
+@font-face {
+    font-family: rota-bold;
+    src: url(../fonts/Rota-Bold.otf);
+}
+
+
+@font-face {
+    font-family: rota-black;
+    src: url(../fonts/Rota-Black.otf);
+}
+
+/* Fonts of spotify ends  */
+
+body{
+    background-image: url(../img/girl.png);
+    background-size: 100%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    /* width: max-content; */
+}
+
+/* header Starts */    
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nav-img{
+     transform: translateX(-60px);
+}
+
+.nav-img img{
+    width: 166px;
+   
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    transform: translateX(30px);
+    
+}
+
+.nav-items > div > ul{
+    display: flex;
+    justify-content: space-between;
+     margin: 0 25px;
+}
+
+.nav-items > div > ul > li{
+    list-style: none;
+   
+    
+}
+
+.nav-items-left{
+   
+    width: 194px;
+}
+
+
+
+.nav-items-middle{
+    width: 215px;
+    margin:0px -13px 0px 20px;
+    /* margin-left: 160px; */
+}
+
+.nav-items-right{
+    margin-right: 10px;
+    transform: translateX(95px);
+}
+
+.nav-items > div > ul > li > a{
+    text-decoration: none;
+    color: #4A4A4A;
+    font-family: rota-bold;
+    font-size: 20px;
+}
+
+.nav-items > .nav-items-middle > ul > li > a{
+    color: white;
+}
+
+
+
+/* Header ends  */
+
+/* First Section Starts  */
+
+.first-section{
+    margin-left: 55px;
+    margin-top: 100px;
+    height: 430px;
+}
+   
+.first-section p{
+    /* display: inline-block; */
+    font-family: rota-medium;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.first-section h1{
+    font-family: rota-medium;
+    font-size: 72px;
+    display: inline-block;
+}
+
+.first-section .p2{
+    font-size: 32px;
+    margin-top: 11px;
+    font-family: rota-regular;
+    margin-left: 20px;
+}
+
+.first-section a{
+    display: inline-block;
+    font-family: rota-bold;
+    font-size: 30px;
+    background-color: #1ED760;
+    border-radius: 50px;
+    padding: 15px  25px;
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+}
+
+
+/* First Section Ends  */
+
+/* Second Section Starts  */
+
+.second-section{
+    height: 1200px;
+    margin-top: 30px;
+    background-image: url(../img/headphone.png);
+    background-size: 1850px;
+    background-repeat: no-repeat;
+}
+
+.second-section div{
+    transform: translateY(416px) translateX(80px);
+}
+
+.second-section > div >  p{
+    font-family: rota-medium;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+
+.second-section  > div > h1{
+    font-family: rota-medium;
+    font-size: 72px;
+    display: inline-block;
+    color: white;
+}
+
+.second-section  > div > h1 > span{
+    display: inline-block;
+    margin-left: 70px;
+}
+
+
+.second-section > div > .p2{
+    font-size: 32px;
+    margin-top: 11px;
+    font-family: rota-regular;
+    margin-left: 20px;
+    color: white;
+}
+
+.second-section  > div > a{
+    display: inline-block;
+    font-family: rota-bold;
+    font-size: 30px;
+    background-color: #1ED760;
+    border-radius: 80px;
+    padding: 18px  55px;
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+    color: white;
+}
+
+
+
+/* Second Section Ends */
+
+
+/* Third Section Starts */
+
+
+.section-logo img{
+    width: 166px;
+    margin-left: 120px;
+}
+
+.third-section{
+    margin-bottom: 34px;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.list-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+}
+
+.list p{
+    font-family: rota-bold;
+    margin-top: 43px;
+
+}
+
+.list ul{
+    list-style: none;
+
+}
+
+.list ul li{
+    font-family: rota-regular;
+    margin-top: 22px;
+}
+
+
+
+/* Third Section Ends */
+
+
+/* Fourth Section Starts */
+
+
+.fourth-section{
+    /* height: 77px; */
+    margin-bottom: 30px;
+}
+
+.container-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.socials{
+    display: flex;
+    width: 340px;
+    justify-content: space-around;
+}
+
+.socials img{
+    width: 51px;
+}
+
+.copyright-texts{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: flex-end;
+    transform: translateX(140px);
+}
+
+.copyright-texts img{
+    width: 24px;
+
+}
+
+.copyright-texts-left{
+    font-family: rota-bold;
+}
+
+.copyright-texts-right{
+    display: flex;
+    align-items: center;
+    font-family: rota-bold;
+}
+
+
+
+/* Fourth Section Ends */
+
+
+
+/* Footer Starts */
+
+
+footer{
+    /* height: 51px; */
+    background-color: black;
+}
+
+.foot-nav > ul{
+    height: 51px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+    margin: 0px auto;
+}
+
+.foot-nav > ul > li > a{
+    font-family: rota-bold;
+    color: white;
+    text-decoration: none;
+    size: 20px;
+
+}
+
+/* Footer Ends */
